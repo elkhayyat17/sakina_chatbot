@@ -28,7 +28,7 @@ app.add_middleware(
 )
 
 
-peft_model_id = "Elkhayyat17/PEFT-Llama-2-7b-chat-MedText"
+peft_model_id = "Elkhayyat17/qlora-code-llama2"
 config = PeftConfig.from_pretrained(peft_model_id)
 
 bnb_config = BitsAndBytesConfig(
